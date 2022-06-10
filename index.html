@@ -6,52 +6,140 @@
 	<style>
         body {
             margin: 0;
-			background-color: lightgrey;
+            background-color: lightgrey;
         }
 
-        #header {
+        header,footer {
             text-align: center;
             background-color: darkblue;
             color: white;
             padding: 15px;
         }
+		footer{
+			background-color: black;
+		}
 
         .header-option {
             padding: 12px;
             color: white;
         }
-		#img-principal{
-			width: 100%;
-			height: 400px;
-		}
-		b{
-			text-align: center;
-			font-size: 18px;
-			padding: 10px;
 
+        #img-principal {
+            width: 100%;
+            height: 400px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .img-paisaje {
+            width: 350px;
+            height: 250px;
+        }
+
+        table {
+			border-spacing: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+			margin-bottom: 10px;
+        }
+		td{
+			padding: 0;
+			background-color: white;
+		}
+		p{
+			font-size: 20px;
+			height:10px;
 		}
 	</style>
 </head>
 <body>
-	<div id="header">
+	<header>
 		<span>
-			<a class="header-option" href="https://google.com">TRIPS</a>
+			<a class="header-option" href="/34.HTMLFinalProyect/index.html">TRIPS</a>
 		</span>
 		<span>
-			<a class="header-option" href="https://google.com">ABOUT</a>
+			<a class="header-option" href="/34.HTMLFinalProyect/about.html">ABOUT</a>
 		</span>
 		<span>
-			<a class="header-option" href="https://google.com">CONTACT</a>
+			<a class="header-option" href="/34.HTMLFinalProyect/contact.html">CONTACT</a>
 		</span>
-	</div>
-	<div>
-		<img id="img-principal" src="https://conceptodefinicion.de/wp-content/uploads/2014/03/ciudad.jpg" alt="ciudad-imagen">
-	</div>
-	<div>
-		<b>My Travel Diary</b>
-	</div>
-	<div id="image-div">
 
+	</header>
+	<div>
+		<img alt="ciudad-imagen" id="img-principal"
+			 src="https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?cs=srgb&dl=pexels-pixabay-290595.jpg&fm=jpg">
 	</div>
+	<div>
+
+		<h2>My Travel Diary</h2>
+	</div>
+	<table>
+		<tr>
+			<td>
+				<img alt="img-paris" class="img-paisaje"
+					 src="https://img2.viajar.elperiodico.com/de/39/06/istock-1181258622-650x428.jpg">
+				<p>París</p>
+			</td>
+			<td>
+				<img alt="img-londres" class="img-paisaje"
+					 src="https://img1.viajar.elperiodico.com/78/ff/ea/istock-491470466-650x429.jpg">
+				<p>Londres</p>
+			</td>
+			<td>
+				<img alt="img-Atenas" class="img-paisaje"
+					 src="https://img2.viajar.elperiodico.com/e9/78/be/atenas-istock-502058349-650x437.jpg">
+				<p>Atenas</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img alt="img-Roma" class="img-paisaje"
+					 src="https://img2.viajar.elperiodico.com/97/46/70/roma-istock-508540910-650x363.jpg">
+				<p>Roma</p>
+			</td>
+			<td>
+				<img alt="img-Varsovia" class="img-paisaje"
+					 src="https://img1.viajar.elperiodico.com/76/9b/a9/varsovia-istock-524284145-650x433.jpg">
+				<p>Varsovia</p>
+			</td>
+			<td>
+				<img alt="img-Budapest" class="img-paisaje"
+					 src="https://img1.viajar.elperiodico.com/5d/59/c6/budapest-istock-1087617696-650x427.jpg">
+				<p>Budapest</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img alt="img-Dubai" class="img-paisaje"
+					 src="https://img2.viajar.elperiodico.com/61/96/78/dubai2-istock-641179244-650x438.jpg">
+				<p>Dubái</p>
+			</td>
+			<td>
+				<img alt="img-Lyon" class="img-paisaje"
+					 src="https://img4.viajar.elperiodico.com/fd/72/d8/lyon2-istock-462517473-650x438.jpg">
+				<p>Lyon</p>
+			</td>
+			<td>
+				<img alt="img-Toulouse" class="img-paisaje"
+					 src="https://img1.viajar.elperiodico.com/c3/00/01/toulouse-istock-1089352392-650x470.jpg">
+				<p>Toulouse</p>
+			</td>
+		</tr>
+	</table>
+	<footer>
+		<span>
+			<a class="header-option" href="/34.HTMLFinalProyect/index.html">TRIPS</a>
+		</span>
+		<span>
+			<a class="header-option" href="/34.HTMLFinalProyect/about.html">ABOUT</a>
+		</span>
+		<span>
+			<a class="header-option" href="/34.HTMLFinalProyect/contact.html">CONTACT</a>
+		</span>
+
+	</footer>
 </body>
 </html>
