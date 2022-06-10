@@ -9,11 +9,16 @@
             margin: 0;
             background-color: lightgrey;
         }
+
         header, footer {
             text-align: center;
             background-color: darkblue;
             color: white;
             padding: 15px;
+        }
+
+        h2 {
+            text-align: center;
         }
 
         footer {
@@ -23,6 +28,46 @@
         .header-option {
             padding: 12px;
             color: white;
+        }
+
+        #contact-form {
+            text-align: center;
+            background-color: white;
+            width: 700px;
+            border: 1px #ccc solid;
+            margin-right: auto;
+            margin-left: auto;
+			margin-bottom: 30px;
+        }
+
+        #input-fields {
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        .input-box {
+            font-size: 18px;
+            padding-bottom: 6px;
+            padding-top: 6px;
+            margin-bottom: 36px;
+            border-top: 0px;
+            border-right: 0px;
+            border-left: 0px;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+
+        #register-button {
+            background-color: darkblue;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: white;
+            border: none;
         }
 	</style>
 </head>
@@ -39,6 +84,25 @@
 		</span>
 
 	</header>
+	<h2>Wanna come on my next trip? Contact me.</h2>
+	</div>
+	<div id="contact-form">
+		<form id="input-fields">
+			<div>
+				<input class="input-box" name="full-name" placeholder="Full name" type="text">
+			</div>
+			<div>
+				<input class="input-box" name="email" placeholder="Email" type="text">
+			</div>
+			<div>
+				<input class="input-box" name="contact-number" placeholder="Contact number" type="text">
+			</div>
+			<div class="input-button">
+				<input id="register-button" type="submit" value="Register">
+			</div>
+		</form>
+	</div>
+
 	<footer>
 		<span>
 			<a class="header-option" href="/34.HTMLFinalProyect/index.html">TRIPS</a>
